@@ -1,0 +1,69 @@
+body{
+    background-color: chocolate;
+}
+
+*{
+color:azure;
+}
+
+/*this removes bullets and generic padding and margin built into the list*/
+#navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+  
+a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color:chocolate;
+    font-size: 100px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#name{
+    font-size: 75px;
+    display: block;
+    float:right;
+    padding-right: 20px;
+}
+
+.intro{
+    font-size: 200px;
+    width:50%;
+    display: block;
+    float:left;
+    position:absolute;
+    bottom:30%;
+    left:150px;
+
+}
+
+.history{
+    display: block;
+    float:left;
+    font-size: 100px;
+}
+
+#profilepic{
+    display: block;
+    position: absolute;
+    border-color:black;
+    border-width: 100px;
+    border-radius: 50%;
+    bottom:30%;
+    right:15%;
+}
+
+
+

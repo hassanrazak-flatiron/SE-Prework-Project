@@ -31,14 +31,24 @@ a:link{
     text-decoration: none;
 }
 
-#name{
+a:hover{
+    background-color: azure;
+    color:chocolate;
+}
+
+a:active{
+    background-color: azure;
+    color:chocolate
+}
+
+.name{
     font-size: 75px;
     display: block;
     float:left;
     padding-right: 20px;
 }
 
-.intro{
+#intro{
     font-size: 200px;
     width:50%;
     display: block;
@@ -49,7 +59,7 @@ a:link{
 
 }
 
-#history{
+.history{
     display: block;
     float:left;
     font-size: 75px;
@@ -76,7 +86,7 @@ table, th, td {
   }
 
 td{
-    padding: 0 15px;
+    padding: 0 25px;
 }
   table{
     position: absolute;
@@ -90,5 +100,27 @@ td{
     font-size: 70px;
   }
 
+
+  #contact{
+    background-color:chocolate;
+    color: azure;
+    border:none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    float: right;
+    font-size: 50px;
+    margin: 4px 2px;
+    position: absolute;
+    margin-left: 90%;
+    border-radius: 50%;
+    
+  }
+  #contact:hover{
+    background-color: azure;
+    color:chocolate;
+  }
+ 
 
 
